@@ -1,0 +1,56 @@
+HelloWorld.java
+JDK - compiler (javac)
+HelloWorld.class
+JRE - JVM
+Execute HelloWorld.class
+
+OOPS:
+
+Class - set of directions - Blueprint/Template - SmartPhone (OS, $, camera, maps)
+Object - instantiated version of class. state/behaviour to a class - OnePLus, iPhone
+
+Encapsulation - hiding data, enclosing data into on place (class)
+public, private, protected, default
+Abstraction - abstract classes & interfaces.
+Inheritence - what is multiple inheritence? No -achieve Interfaces
+Polymorphism - Overloading - one name different features & Overriding - 
+
+Naming Convention
+Class names - start uppercase foll camelCase
+Constructors - methods that start with upperCase & camelCase
+starts with lowercase foll by cameCase
+ALWAYS HAVE COMMENTS
+Indentation (formatting)
+
+packages:
+xxx.yyy.zzz.abcd
+com.ss.nmprj.ui/service/data
+gov.
+org.
+
+["jan", "feb",....."dec"]
+mon = dec
+
+if("jan.equals(mon)){
+printf
+else if(feb)
+
+
+switch mon:
+	case "Jan": 
+	case "jan": 
+		break;
+		
+		
+	case "DEc":
+		break;
+
+
+
+
+
+
+
+
+
+
