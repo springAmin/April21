@@ -13,7 +13,15 @@ public class Assignment2 {
         int guessesLeft = 5;
         System.out.println("Please guess a number between 1-100");
         while(guessesLeft > 0) {
-            int numGuessed = Integer.parseInt(guess.nextLine());
+            int numGuessed;
+
+            try {
+                numGuessed = Integer.parseInt(guess.nextLine());
+            } catch (NumberFormatException e) {
+                System.out.println("That's not a valid number! ");
+                continue;
+            }
+
             if (Math.abs(numGuessed - randomNumber) <= 10) { // This assumes inclusive range
                 System.out.println("You guessed correctly! The number is " + randomNumber);
                 return;
