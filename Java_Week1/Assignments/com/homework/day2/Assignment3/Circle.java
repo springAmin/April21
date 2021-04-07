@@ -8,16 +8,21 @@ public class Circle implements Shape {
         this.radius = radius_in;
     }
 
-
-
     /**
-     * Returns calculated area of shape
+     * Returns calculated area of circle
      */
     @Override
     public double calculateArea() {
         return (PI*radius*radius);
     }
 
+    /**
+     * Prints area of Circle to standard out
+     */
+    @Override
+    public void display() {
+        System.out.println("Circle Area: " + calculateArea());
+    }
 
     private int radius;
 }

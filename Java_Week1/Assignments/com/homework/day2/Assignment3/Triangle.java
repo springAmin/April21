@@ -2,24 +2,30 @@ package com.homework.day2.Assignment3;
 
 public class Triangle implements Shape{
 
-    Triangle(int height_in, int base_in) {
-        this.height = height_in;
-        this.base = base_in;
+    Triangle(int height, int base) {
+        this.height = height;
+        this.base = base;
     }
 
-    Triangle(int height_in, int base_in, int gamma_in) {
-        this.height = height_in;
-        this.base = base_in;
-        this.gamma = gamma_in;
+    Triangle(int height, int base, int gamma) {
+        this(height, base);
+        this.gamma = gamma;
     }
-
 
     /**
-     * Returns calculated area of shape
+     * Returns calculated area of triangle
      */
     @Override
     public double calculateArea() {
         return ((height*base) / 2.0);
+    }
+
+    /**
+     * Prints area of Triangle to standard out
+     */
+    @Override
+    public void display() {
+        System.out.println("Triangle Area: " + calculateArea());
     }
 
 

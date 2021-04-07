@@ -7,14 +7,20 @@ public class Rectangle implements Shape{
         this.width = width_in;
     }
 
-
-
     /**
-     * Returns calculated area of shape
+     * Returns calculated area of rectangle
      */
     @Override
     public double calculateArea() {
         return (height*width);
+    }
+
+    /**
+     * Prints area of Rectangle to standard out
+     */
+    @Override
+    public void display() {
+        System.out.println("Rectangle Area: " + calculateArea());
     }
 
 
