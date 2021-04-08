@@ -25,7 +25,7 @@ public class Assignment2 {
                         "make sure it's not a directory");
             }
         }  catch (IOException e) {
-            System.out.println("File");
+            System.out.println("Encountered an IOException");
         }
 
     }
