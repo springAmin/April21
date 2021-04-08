@@ -1,4 +1,4 @@
-package com.homework.day2.Assignment3;
+package com.homework.week1.day2.Assignment3;
 
 public class Circle implements Shape {
 
