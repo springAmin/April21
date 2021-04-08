@@ -16,7 +16,7 @@ public class Assignment1 {
         try {
             Files.walk(getDirectory()).forEach(System.out::println);
         } catch (IOException e) {
-            System.out.println("File");
+            System.out.println("Encountered an IO Exception");
         } catch (Exception e) {
             System.out.println("Path is not a directory"); // could do e.message()
         }

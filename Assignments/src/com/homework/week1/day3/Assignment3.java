@@ -1,11 +1,9 @@
 package com.homework.week1.day3;
-import java.lang.Integer;
-import java.util.Scanner;
+
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+
 
 public class Assignment3 {
     public static void main(String[] args) {
@@ -19,7 +17,7 @@ public class Assignment3 {
 
         char match = args[0].charAt(0);
         int numMatch = 0;
-        
+
         try(BufferedReader buf = new BufferedReader(new FileReader("hello.txt"))) {
             int value;
             while((value = buf.read()) != -1) {
