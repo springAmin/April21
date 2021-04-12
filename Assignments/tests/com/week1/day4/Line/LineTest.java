@@ -10,9 +10,9 @@ import org.junit.Test;
 public class LineTest {
 	
 	Line line = new Line(3.9,5.1,6.5,7.3);
-	double slope = 0.846;
-    double distance = 5.099;
-    Line parallelLine = new Line (1, 0.846, 2, 1.692);
+	double slope = 0.846153;
+    double distance = 3.4059;
+    Line parallelLine = new Line (1, 0.846153, 2, 1.692306);
 
 	@Test
 	public void getSlopeTest() {

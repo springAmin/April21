@@ -1,4 +1,4 @@
-package com.week1.day4.Assignment1;
+package com.week1.day4.Singleton;
 
 import com.homework.week1.day4.Singleton;
 
@@ -6,7 +6,7 @@ import static org.junit.Assert.assertNotEquals;
 
 import org.junit.Test;
 
-public class Assignment1Test {
+public class SingletonTest {
 	
 	Singleton singleton = new Singleton();
 	
