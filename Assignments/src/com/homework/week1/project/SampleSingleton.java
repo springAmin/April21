@@ -37,9 +37,15 @@ public class SampleSingleton {
                 // To prevent overflow use appropriate casting
                 x = BigDecimal.valueOf( rs.getInt(1) ).multiply( input );
             }
-            conn.close(); // Close DB connection
         } catch (SQLException e) {
             e.printStackTrace();
+        } finally {
+            // better way?
+            try{
+                conn.close(); // Close DB connection
+            } catch (SQLException e) {
+               e.printStackTrace();
+            }
         }
     }
 }

@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaeb68df-be78-4b57-a1cb-537b87816a0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Assignments/.idea/libraries/hamcrest_all_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/src/com/homework/week1/day4/Deadlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/src/com/homework/week1/day5/A3String.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/src/com/homework/week1/day5/DataTimeSol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/src/com/homework/week1/day5/EvenOdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/src/com/homework/week1/day5/Lambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/src/com/homework/week1/project/AssignmentOneInput.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/src/com/homework/week1/project/Functional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/src/com/homework/week1/project/LambdasOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/src/com/homework/week1/project/Recursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/src/com/homework/week1/project/SampleSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/tests/com/week1/day4/ProducerConsumer/ProducerConsumerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/tests/com/week1/day5/A3StringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/tests/com/week1/day5/DateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/tests/com/week1/day5/EvenOddTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/tests/com/week1/day5/JUTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/tests/com/week1/project/FunctionalTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/tests/com/week1/project/JUTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/tests/com/week1/project/LambdaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/tests/com/week1/project/RecursionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignments.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignments.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/hello.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/src/com/homework/week1/day4/ProducerConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/src/com/homework/week1/day4/ProducerConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/src/com/homework/week1/day4/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/src/com/homework/week1/day4/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/tests/com/week1/day4/Assignment1/Assignment1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/tests/com/week1/day4/Singleton/SingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/tests/com/week1/day4/Line/LineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/tests/com/week1/day4/Line/LineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignments/src/com/homework/week1/project/SampleSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/src/com/homework/week1/project/SampleSingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
